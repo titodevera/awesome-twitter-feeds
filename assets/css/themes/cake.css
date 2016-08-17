@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+.atf.atf-cake{
+    font-family: 'Lato', sans-serif;
+}
+.atf.atf-cake.atf-followbtn{
+    padding-bottom: 20px;
+}
+.atf.atf-cake .atf-content{
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-top: 1px solid #f9dbd6;
+    border-bottom: 1px solid #f9dbd6;
+}
+.atf.atf-cake .atf-error{
+    color: red;
+}
+.atf-wrapper-parent > h3.atf-widget-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #999;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+/* ------------------------ Icons ------------------------ */
+@font-face {
+    font-family: 'twitter-icons';
+    src:
+        url('../../fonts/twitter-icons.ttf?h1xglz') format('truetype'),
+        url('../../fonts/twitter-icons.woff?h1xglz') format('woff'),
+        url('../../fonts/twitter-icons.svg?h1xglz#twitter-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.atf.atf-cake i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'twitter-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.atf.atf-cake .atficon-share:before {
+    content: "\e900";
+}
+.atf.atf-cake .atficon-bird:before {
+    content: "\e901";
+}
+.atf.atf-cake .atficon-like:before {
+    content: "\e902";
+}
+.atf.atf-cake .atficon-reply:before {
+    content: "\e903";
+}
+.atf.atf-cake .atficon-retweet:before {
+    content: "\e904";
+}
+.atf.atf-cake .atficon-plus:before {
+    content: "\e905";
+}
+.atf.atf-cake .atficon-minus:before {
+    content: "\e906";
+}
+/* ------------------------ /Icons ------------------------ */
+
+/* ------------------------ Loading ------------------------ */
+.atf.atf-cake .atf-loader {
+  font-size: 10px;
+  margin: 0 auto;
+  text-indent: -9999em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d0595f;
+  background: -moz-linear-gradient(left, #d0595f 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #d0595f 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #d0595f 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #d0595f 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #d0595f 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: atf-loader-kf 1.4s infinite linear;
+  animation: atf-loader-kf 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.atf.atf-cake .atf-loader:before {
+  width: 50%;
+  height: 50%;
+  background: #d0595f;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.atf.atf-cake .atf-loader:after {
+  background: #ffffff;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes atf-loader-kf {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes atf-loader-kf {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* ------------------------ /Loading ------------------------ */
+
+
+.atf.atf-cake .atf-clear:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.atf.atf-cake{
+    background-color: #fff;
+}
+
+.atf.atf-cake .atf-row-names{
+    position: relative;
+}
+.atf.atf-cake .atf-avatar-on > .atf-row-names{
+    padding-left: 40px;
+}
+
+.atf.atf-cake .atf-row-names img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+}
+
+.atf.atf-cake .atf-single-tweet{
+    border-bottom: 1px solid #eee9e8;
+    padding: 10px;
+}
+
+.atf.atf-cake .atf-single-tweet:hover{
+    background-color: rgb(250, 250, 250);
+}
+.atf.atf-cake .atf-single-tweet:hover .atf-tweet-actions a,.atf.atf-cake .atf-single-tweet:hover .atf-tweet-metadata{
+    color: #999;
+}
+.atf.atf-cake .atf-tweet-footer{
+    line-height: 20px;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-actions{
+    text-align: left;
+    float: left;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-actions a{
+    color: #d0d0d0;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 14px;
+}
+.atf.atf-cake .atficon-plus,.atf.atf-cake .atficon-minus{
+    /* fix icon size and position */
+    font-size: 12px;
+    position: relative;
+    top: -3.5px;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-actions a:hover .atficon-like{
+    color: #ee998a;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-actions a:hover .atficon-share{
+    color: #ee998a;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-actions a:hover .atficon-reply{
+    color: #ee998a;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-actions a:hover .atficon-plus{
+    color: #ee998a;
+}
+.atf.atf-cake .atf-tweet-footer .atf-tweet-metadata{
+    font-size: 11px;
+    color: #d0d0d0;
+    font-weight: 400;
+    text-align: right;
+    float: right;
+}
+.atf.atf-cake .atf-tweet-content{
+    margin-bottom: 12px;
+    color: #292F33;
+    font-size: 14px;
+}
+.atf.atf-cake .atf-avatar-on > .atf-tweet-content{
+    margin-left: 40px;
+}
+.atf.atf-cake .atf-tweet-media{
+    margin-left: 40px;
+    margin-bottom: 12px;
+    position: relative;
+    display: none;
+}
+.atf.atf-cake .atf-tweet-media iframe{
+    width: 100%;
+    min-height: 300px;
+}
+.atf.atf-cake .atf-video-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../../img/icon_play.png) center center no-repeat;
+    z-index: 1;
+    opacity: 0.5;
+}
+.atf.atf-cake .atf-video-overlay:hover{
+    cursor: pointer;
+}
+.atf.atf-cake a{
+    text-decoration: none;
+    color: #ee998a;
+	box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    border: none;
+}
+.atf.atf-cake .atf-row-names a:link,.atf.atf-cake .atf-row-names a:visited{
+    color: #292F33;
+}
+.atf.atf-cake a:hover,.atf.atf-cake a:active{
+    color: #d0595f;
+    text-decoration: none;
+}
+
+.atf.atf-cake .atf-row-names > a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #292F33;
+}
+
+.atf.atf-cake .atf-row-names > a > span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+    padding-left: 6px;
+}
+.atf.atf-cake a.atf-follow{
+    border: 1px solid #ee998a;
+    background-color: #fff;
+    padding: 4px 6px 6px 6px;
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+
+    border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+}
+.atf.atf-cake a.atf-follow:hover{
+    border-color: #d0595f;
+}
+.atf.atf-cake a.atf-follow i{
+    margin-right: 6px;
+    position: relative;
+    bottom: -1px;
+}
+.atf.atf-cake .atf-bottom{
+    padding-right: 10px;
+    margin-top: 20px;
+    text-align: right;
+}
+.atf.atf-cake .atf-retweet-notice{
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #889ba6;
+    position: relative;
+}
+.atf.atf-cake .atf-avatar-on > .atf-retweet-notice{
+    margin-left: 18px;
+}
+.atf.atf-cake .atf-retweet-notice i{
+    position: relative;
+    bottom: -2px;
+    margin-right: 8px;
+    color: #d0595f;
+    font-size: 14px;
+}
+.atf.atf-cake .atf-loader-row{
+    background-color: #ee998a;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    color: #ee998a;
+}
+.atf.atf-cake .atf-load-more{
+    background-color: #f9dbd6;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    color: #ee998a;
+}
+.atf.atf-cake .atf-load-more:hover{
+    cursor: pointer;
+    color: #d0595f;
+}

@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: es_ES\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: main.php
+msgid "ATFeeds is a free WordPress plugin that allows you to display custom Twitter feeds using shortcode or widgets, it is also fully compatible with Visual Composer. You can customize the appearance of the feeds as you like!. ATFeeds uses Twitter API."
+msgstr "ATFeeds es un plugin gratuito que te permite mostrar feeds de Twitter personalizados (gracias al API de Twitter) utilizando shortcodes o widgets, además es compatible con Visual Composer. ¡Personaliza la apariencia de los feeds a tu gusto!"
+
+#: class-atf-plugin.php
+msgid "Click me"
+msgstr "Pincha aquí"
+
+#: class-atf-plugin.php
+msgid "Do you need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: class-atf-plugin.php
+msgid "ATF ERROR: The widget does not exists"
+msgstr "ATF ERROR: El widget no existe."
+
+#: class-atf-plugin.php
+msgid "ATF ERROR: Number of tweets option is not valid. Enter a number greater than 0"
+msgstr "ATF ERROR: El número de tweets seleccionado no es válido. Introduzca un número superior a 0."
+
+#: class-atf-plugin.php
+msgid "Custom feeds using Twitter API"
+msgstr "Feeds personalizados utilizando el API de Twitter"
+
+#: class-atf-plugin.php
+msgid "Like"
+msgstr "Me gusta"
+
+#: class-atf-plugin.php
+msgid "Share"
+msgstr "Compartir"
+
+#: class-atf-plugin.php
+msgid "Reply"
+msgstr "Responder"
+
+#: class-atf-plugin.php
+msgid "Follow"
+msgstr "Seguir a"
+
+#: class-atf-plugin.php
+msgid "More"
+msgstr "Más"
+
+#: class-atf-plugin.php
+msgid "Load more"
+msgstr "Cargar más"
+
+#: class-atf-plugin.php
+msgid "retweeted"
+msgstr "retwitteó"
+
+#: class-atf-plugin.php
+msgid "API Key"
+msgstr "API Key"
+
+#: class-atf-plugin.php
+msgid "API Secret"
+msgstr "API Secret"
+
+#: class-atf-plugin.php
+msgid "API config"
+msgstr "Configuración API de Twitter"
+
+#: class-atf-plugin.php
+msgid "Access token"
+msgstr "Access token"
+
+#: class-atf-plugin.php
+msgid "Access token secret"
+msgstr "Access token secret"
+
+#: class-atf-widget.php
+msgid "Add a customized Twitter feed"
+msgstr "Añade un feed de Twitter personalizado"
+
+#: class-atf-plugin.php
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: class-atf-plugin.php
+msgid "Add new feed"
+msgstr "Crear nuevo feed"
+
+#: class-atf-plugin.php
+msgid "All feeds"
+msgstr "Todos los feeds"
+
+#: class-atf-plugin.php
+msgid "ATF Options"
+msgstr "Opciones"
+
+#: class-atf-plugin.php
+msgid "ATFeeds"
+msgstr "ATFeeds"
+
+#: class-atf-plugin.php
+msgid "Duplicate"
+msgstr "Clonar"
+
+#: class-atf-plugin.php
+msgid "Duplicate this item"
+msgstr "Clonar este elemento"
+
+#: class-atf-plugin.php
+msgid "Edit ATFeed"
+msgstr "Editar ATFeed"
+
+#: class-atf-plugin.php
+msgid "Id"
+msgstr "Id"
+
+#: class-atf-plugin.php
+msgid "Feed id"
+msgstr "Id del feed"
+
+#: class-atf-plugin.php
+msgid "Title"
+msgstr "Título"
+
+#: class-atf-plugin.php
+msgid "Widget title (leave empty for none)"
+msgstr "Título del widget (dejar vacío si no se desea título)"
+
+#: class-atf-plugin.php
+msgid "New ATFeed"
+msgstr "Nuevo ATFeed"
+
+#: class-atf-plugin.php
+msgid "No feeds found"
+msgstr "No se han encontrado feeds"
+
+#: class-atf-plugin.php
+msgid "No feeds found in trash"
+msgstr "No se han encontrado feeds en la papelera"
+
+#: class-atf-widget.php:33
+msgid "No widgets available. ¡Create one!"
+msgstr "No hay widgets disponibles. ¡Crea uno¡"
+
+#: class-atf-plugin.php
+msgid "Number of tweets"
+msgstr "Número de tweets"
+
+#: class-atf-plugin.php
+msgid "Number of tweets which must be shown"
+msgstr "Número de tweets que se van a mostrar"
+
+#: class-atf-plugin.php
+msgid "Feed height"
+msgstr "Altura del widget"
+
+#: class-atf-plugin.php
+msgid "Height in pixels Ej.: 320"
+msgstr "Altura (en píxeles) del widget. Ej.: 320"
+
+#: class-atf-plugin.php
+msgid "Search"
+msgstr "Buscar"
+
+#: class-atf-plugin.php
+msgid "Select a theme"
+msgstr "Seleccionar un tema"
+
+#: class-atf-plugin.php
+msgid "Show follow button"
+msgstr "Mostrar botón \"follow me\""
+
+#: class-atf-plugin.php
+msgid "Show media content"
+msgstr "Mostrar contenido multimedia"
+
+#: class-atf-plugin.php
+msgid "Show media content for each tweet"
+msgstr "Mostrar el contenido multimedia de cada tweet"
+
+#: class-atf-plugin.php
+msgid "Show profile image"
+msgstr "Mostrar avatar"
+
+#: class-atf-plugin.php
+msgid "Show profile image for each tweet"
+msgstr "Mostrar avatar para cada uno de los tweets"
+
+#: class-atf-plugin.php
+msgid "Show urls as links"
+msgstr "Tratar las urls como enlaces"
+
+#: class-atf-plugin.php
+msgid "Show urls, mentions and hashtags as links"
+msgstr "Tratar las urls, menciones y hashtags como enlaces"
+
+#: class-atf-plugin.php
+msgid "Theme"
+msgstr "Tema"
+
+#: class-atf-plugin.php
+msgid "Twitter API Key"
+msgstr "Twitter API Key"
+
+#: class-atf-plugin.php
+msgid "Twitter API Secret"
+msgstr "Twitter API Secret"
+
+#: class-atf-plugin.php
+msgid "Twitter access token"
+msgstr "Twitter access token"
+
+#: class-atf-plugin.php
+msgid "Twitter access token secret"
+msgstr "Twitter access token secret"
+
+#: class-atf-plugin.php
+msgid "Twitter account name"
+msgstr "Twitter account name"
+
+#: class-atf-plugin.php
+msgid "Twitter account without the at"
+msgstr "Cuenta de twitter (sin @)"
+
+#: class-atf-plugin.php
+msgid "View ATFeed"
+msgstr "Ver ATFeed"
