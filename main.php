@@ -2,7 +2,7 @@
 /*
 Plugin Name: Awesome Twitter Feeds
 Plugin URI: https://wordpress.org/plugins/awesome-twitter-feeds/
-Description: ATFeeds is a free WordPress plugin that allows you to display custom Twitter feeds using shortcode or widgets, it is also fully compatible with Visual Composer. You can customize the appearance of the feeds as you like!. ATFeeds uses Twitter API.
+Description: ATFeeds is a free WordPress plugin that allows you to display custom Twitter feeds using shortcode or widgets, it is also fully compatible with Visual Composer. You can customize the appearance of the feeds as you like!. ATFeeds uses the Twitter API.
 Version: 1.0
 Author: Alberto de Vera Sevilla
 Author URI: https://profiles.wordpress.org/titodevera/
@@ -36,14 +36,14 @@ define('ATF_DIR',dirname(__FILE__));
 define('ATF_TEMPLATES_DIR',dirname(__FILE__).'/templates');
 define('ATF_CLASSES_DIR',dirname(__FILE__).'/classes');
 
-include_once(ABSPATH . 'wp-admin/includes/plugin.php');
-require_once(ATF_DIR . '/inc/avs-metaboxes-master/init.php');
-require_once(ATF_DIR . "/inc/twitteroauth-master/autoload.php");
-require_once(ATF_CLASSES_DIR . '/class-atf-widget.php');
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
+require_once ATF_DIR . '/inc/avs-metaboxes-master/init.php';
+require_once ATF_DIR . "/inc/twitteroauth-master/autoload.php";
+require_once ATF_CLASSES_DIR . '/class-atf-widget.php';
 $widget_instance = new ATF_Widget;
-require_once(ATF_CLASSES_DIR . '/class-atf-plugin.php');
+require_once ATF_CLASSES_DIR . '/class-atf-plugin.php';
 new ATF_Plugin($widget_instance);
 if(is_admin()){
-    require_once(ATF_CLASSES_DIR . '/class-atf-admin.php');
+    require_once ATF_CLASSES_DIR . '/class-atf-admin.php';
     new ATF_Admin();
 }

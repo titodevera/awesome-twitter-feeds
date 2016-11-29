@@ -10,10 +10,10 @@ msgstr ""
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Language: es_ES\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: main.php
-msgid "ATFeeds is a free WordPress plugin that allows you to display custom Twitter feeds using shortcode or widgets, it is also fully compatible with Visual Composer. You can customize the appearance of the feeds as you like!. ATFeeds uses Twitter API."
+msgid "ATFeeds is a free WordPress plugin that allows you to display custom Twitter feeds using shortcode or widgets, it is also fully compatible with Visual Composer. You can customize the appearance of the feeds as you like!. ATFeeds uses the Twitter API."
 msgstr "ATFeeds es un plugin gratuito que te permite mostrar feeds de Twitter personalizados (gracias al API de Twitter) utilizando shortcodes o widgets, además es compatible con Visual Composer. ¡Personaliza la apariencia de los feeds a tu gusto!"
 
 #: class-atf-plugin.php
