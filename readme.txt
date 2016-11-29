@@ -16,7 +16,6 @@ ATFeeds is a free WordPress plugin that allows you to display custom Twitter fee
 = Requirements =
 > * PHP 5.3 or higher
 > * WordPress 4.4 or higher
-> * WooCommerce 2.4.0 or higher
 > * Visual Composer (recommended)
 
 = Features =
